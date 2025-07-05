@@ -29,7 +29,7 @@ export const employees = pgTable("employees", {
   position: text("position").notNull(),
   salary: decimal("salary", { precision: 10, scale: 2 }),
   startDate: timestamp("start_date"),
-  status: text("status").notNull().default("active"), // active, inactive, on_leave
+  status: text("status").notNull().default("active"), 
   avatar: text("avatar"),
   address: text("address"),
   dateOfBirth: timestamp("date_of_birth"),

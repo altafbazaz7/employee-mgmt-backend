@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "name": "emp-mgmt-backend",
+    "builds": [
+      { "src": "index.ts", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "index.ts" }
+    ]
+  }
+  
