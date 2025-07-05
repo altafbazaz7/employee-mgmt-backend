@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "emp-mgmt-backend",
   "builds": [
     { "src": "src/index.ts", "use": "@vercel/node" }
   ],
