@@ -8,6 +8,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["index.ts"],      
-  "exclude": ["dist"]
+  "include": ["index.ts"]
 }
