@@ -19,7 +19,6 @@
     "graphql": "^16.11.0",
     "jsonwebtoken": "^9.0.2",
     "nanoid": "^5.1.5",
-    "vite": "^6.3.5",
     "zod": "^3.25.74"
   },
   "devDependencies": {
